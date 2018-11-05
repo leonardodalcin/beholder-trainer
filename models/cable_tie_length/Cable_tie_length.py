@@ -24,7 +24,7 @@ def Cable_tie_length():
 	model.add(Dense(1))
 	model.add(Activation('sigmoid'))
 
-	model.compile(loss='binary_crossentropy',
+	model.compile(loss='sparse_categorical_crossentropy',
 				  optimizer='rmsprop',
 				  metrics=['accuracy'])
 

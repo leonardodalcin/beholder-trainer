@@ -4,9 +4,9 @@ import glob
 import os
 import uuid
 
-root_path = "/media/leonardo/Images"
+root_path = "/Users/leonardodalcin/Downloads/good 3/"
 def main():
-    for file in glob.glob("/media/leonardo/Images/datasets/production_angle/full_mould_bad/dataset_01/*.json", recursive=True):
+    for file in glob.glob(root_path + "*.json", recursive=True):
         with open(file) as json_data:
             json_file = json.load(json_data)
             print(json_file)

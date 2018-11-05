@@ -3,7 +3,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D
 from tensorflow.keras.layers import Activation, Dropout, Flatten, Dense
 
 
-def Empty_mould():
+def Cable_tie_length():
 	model = Sequential()
 	model.add(Conv2D(32, (3, 3), input_shape=(150, 150, 3)))
 	model.add(Activation('relu'))
@@ -23,6 +23,8 @@ def Empty_mould():
 	model.add(Dropout(0.5))
 	model.add(Dense(1))
 	model.add(Activation('sigmoid'))
+
+	model.load_weights("./models/cable_tie_length/100 epochs.h5")
 
 	model.compile(loss='binary_crossentropy',
 				  optimizer='rmsprop',

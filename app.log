@@ -1,0 +1,4 @@
+08-Jan-19 11:28:19 - WARNING - Model already contains an attribute 'testQuality'. Skip binding.
+08-Jan-19 11:28:19 - WARNING - Model already contains an attribute 'testExtraction'. Skip binding.
+08-Jan-19 11:28:19 - WARNING - Model already contains an attribute 'inject'. Skip binding.
+08-Jan-19 11:28:19 - WARNING - Entering state: Injecting

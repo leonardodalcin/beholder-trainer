@@ -18,18 +18,25 @@ import sys
 import serial
 
 class IO(object):
-    # "Usage: gpioread.py <PORT> <GPIONUM>\nEg: gpioread.py COM1 0"
     port_name = "/dev/ttyACM0"
     gpio_number = None
     serial_port = None
+
+    def __init__(self, gpio_number):
+        self.gpio_number = gpio_number
+        self.serial_port = serial.Serial(self.port_name, 19200, timeout=0.001)
+
+    def clear(self):
+        self.serial_port.write(str.encode("gpio clear " + str(self.gpio_number) + "\r"))
 
     def close_port(self):
         self.serial_port.close()
 
     def wait_signal(self):
-        while(self.read_port() == 0):
-            print("Waiting for port " + str(self.serial_port))
-
+        while (self.read_port() == 0):
+            continue
+        self.clear()
+        self.close_port()
 
     def read_port(self):
         self.serial_port.write(str.encode("gpio read " + str(self.gpio_number) + "\r"))
@@ -38,8 +45,3 @@ class IO(object):
             return 1
         elif (response[-4] == 48):
             return 0
-
-
-    def __init__(self, gpio_number):
-        self.gpio_number = gpio_number
-        self.serial_port = serial.Serial(self.port_name, 19200, timeout=0.001)

@@ -7,6 +7,8 @@ log.basicConfig(level=log.INFO, format='%(asctime)s - %(levelname)s - %(message)
 
 ###
 
+from Camera import Camera
+
 # Initializes FSM
 from FSM import FSM
 fsm = FSM()

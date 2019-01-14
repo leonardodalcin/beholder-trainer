@@ -26,6 +26,7 @@ class IO(object):
         self.gpio_number = gpio_number
         self.serial_port = serial.Serial(self.port_name, 19200, timeout=0.001)
 
+
     def clear(self):
         self.serial_port.write(str.encode("gpio clear " + str(self.gpio_number) + "\r"))
 
@@ -36,12 +37,13 @@ class IO(object):
         while (self.read_port() == 0):
             continue
         self.clear()
-        self.close_port()
 
     def read_port(self):
-        self.serial_port.write(str.encode("gpio read " + str(self.gpio_number) + "\r"))
-        response = self.serial_port.read(25)
-        if (response[-4] == 49):
+
+        self.serial_port.write(str.encode("adc read " + str(self.gpio_number) + "\r"))
+        response = self.serial_port.read(25).decode("utf-8")
+        number = int(response[12:-3])
+        if (number > 1000):
             return 1
-        elif (response[-4] == 48):
+        else:
             return 0

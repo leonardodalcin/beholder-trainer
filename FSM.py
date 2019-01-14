@@ -25,8 +25,6 @@ class FSM(object):
 
     def __init__(self):
         self.camera = Camera()
-
-
         # Initialize the state machine
         self.machine = Machine(model=self, states=self.states, initial=self.initial_state)
         self.machine.add_ordered_transitions()
@@ -36,21 +34,25 @@ class FSM(object):
 
     def test_quality(self):
         log.info("Testing quality")
-        open_mould_signal = IO(Ports["open_signal"])
         log.info("Waiting for open signal")
+        open_mould_signal = IO(Ports["open_signal"])
         open_mould_signal.wait_signal()
         log.info("Open signal acknowledged")
         log.info("Taking photo")
         test_quality_image = self.camera.take_photo()
-
-
+        test_quality_image.save("full")
 
 
     def test_extraction(self):
         log.info("Testing extraction")
-        extration_complete_signal = IO(Ports["extraction_signal"])
+
         log.info("Waiting for extraction signal")
+        extration_complete_signal = IO(Ports["extraction_signal"])
         extration_complete_signal.wait_signal()
+        log.info("Open signal acknowledged")
+        log.info("Taking photo")
+        test_extraction_image = self.camera.take_photo()
+        test_extraction_image.save("empty")
 
     def inject(self):
         log.info("Injecting")

@@ -2,13 +2,17 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 import cv2
 import os
+from skimage.io import imread
 
 class Image():
     image = None
 
-    def __init__(self, image=None, path=None):
+    def __init__(self, image=None, path=None, as_sklearn=False):
         if (path):
-            self.image = cv2.imread(path, 0)
+            if(as_sklearn):
+                self.image = imread(path, as_gray=True)
+            else:
+                self.image = cv2.imread(path, 0)
         else:
             self.image = image
 

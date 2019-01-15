@@ -3,10 +3,11 @@ import cv2
 import glob
 import os
 import uuid
+from Image import Image
 
-root_path = "/home/leonardo/Desktop/good/"
+root_path = "/media/leonardo/Images/full_mould_bad"
 def main():
-    for file in glob.glob(root_path + "*.json", recursive=True):
+    for file in glob.glob(root_path + "/*.json", recursive=True):
         with open(file) as json_data:
             json_file = json.load(json_data)
             print(json_file)
@@ -29,12 +30,19 @@ def main():
                         x2 = temp
 
                     cropped_image = image[y1:y2, x1:x2]
+                    img = Image(cropped_image)
+                    if(y1 > 2500):
+                        cv2.flip(img.image, 0, img.image)
 
+                        # cv2.flip(img.image, 1, img.image)
+                        img.show()
+
+                    cropped_image = img.image
                     for image_class in json_file["classes"]:
                         save_path = root_path + "/classes/" + image_class
                         if (not os.path.exists(save_path)):
                             os.makedirs(save_path)
-                        image_name = save_path + "/" + str(uuid.uuid4()) + image_class + ".pgm"
+                        image_name = save_path + "/" + str(uuid.uuid4()) + image_class + ".jpg"
                         try:
                             cv2.imwrite(image_name, cropped_image, [cv2.IMWRITE_PXM_BINARY])
                         except:

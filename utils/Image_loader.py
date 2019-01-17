@@ -4,6 +4,9 @@ import glob
 from skimage.io import imread
 from skimage.transform import rescale, resize, downscale_local_mean
 
+def get_sample():
+    return open_image_sklearn("/media/leonardo/Images/full_mould_good/dataset_01/classes/good/1e8de054-7a32-4190-baa3-5663e6f0b268good.jpg")
+
 def getImagePaths(folder, imgExts):
     imagePaths = []
     for x in os.listdir(folder):
@@ -12,7 +15,7 @@ def getImagePaths(folder, imgExts):
             imagePaths.append(xPath)
     return imagePaths
 
-def open_image_sklearn(path, size):
+def open_image_sklearn(path, size = False):
     img = imread(path, as_gray=True)
     if(size):
         return resize(img, size, anti_aliasing=True)

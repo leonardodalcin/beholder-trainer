@@ -2,73 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e64fde6-67ff-43b0-8495-ce9e7330fc70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/anomaly-detection/isolation-forest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anomaly-detection/one_class_svm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/featureextractors/HOG.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/featureextractors/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/Image_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/featureextractors/DAISY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/featureextractors/SIFT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/featureextractors/ShapeIndex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/featureextractors/censure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/featureextractors/gabors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measure/approximate_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measure/find_countours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measure/perimeter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segmentation/felzenszwalb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segmentation/random_walker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segmentation/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segmentation/threshold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segmentation/watershed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/13:24:53.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/13:24:56.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/13:26:04.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/13:33:55.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/14:08:20.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/14:10:31.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/14:11:01.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:40:03.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:41:26.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:41:40.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:42:04.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:42:06.pgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:43:22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:43:25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:44:35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:44:37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:44:39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:44:41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019/16:44:43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:47:09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:47:15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019empty/16:48:29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:47:06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:47:10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:47:17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-01-2019full/16:48:29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Image_cropper.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Image_cropper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/featureextractors/HOG.py" beforeDir="false" afterPath="$PROJECT_DIR$/featureextractors/HOG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Image_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Image_loader.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,67 +26,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/beholder_trainer$Convert.coverage" NAME="Convert Coverage Results" MODIFIED="1541013208283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/beholder_trainer$Production.coverage" NAME="Production Coverage Results" MODIFIED="1547491690569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Cropper.coverage" NAME="Cropper Coverage Results" MODIFIED="1547574122921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/beholder_trainer$Isolation_Forest.coverage" NAME="Isolation Forest Coverage Results" MODIFIED="1547579073866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anomaly-detection" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Find_countours.coverage" NAME="Find countours Coverage Results" MODIFIED="1547741170008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/measure" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Test.coverage" NAME="Test Coverage Results" MODIFIED="1547734154469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Daisy_feature_extractor.coverage" NAME="Daisy feature extractor Coverage Results" MODIFIED="1547641703420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/featureextractors" />
     <SUITE FILE_PATH="coverage/beholder_trainer$HOG.coverage" NAME="HOG Coverage Results" MODIFIED="1547572681976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature-extractors" />
-    <SUITE FILE_PATH="coverage/beholder_trainer$Main.coverage" NAME="Main Coverage Results" MODIFIED="1541178252355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beholder_trainer$One_Class_SVM.coverage" NAME="One Class SVM Coverage Results" MODIFIED="1547578853939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anomaly-detection" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Train.coverage" NAME="Train Coverage Results" MODIFIED="1541021142261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Censure_feature.coverage" NAME="Censure feature Coverage Results" MODIFIED="1547745049434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/featureextractors" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Convert.coverage" NAME="Convert Coverage Results" MODIFIED="1541013208283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Production.coverage" NAME="Production Coverage Results" MODIFIED="1547491690569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Isolation_Forest.coverage" NAME="Isolation Forest Coverage Results" MODIFIED="1547579073866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anomaly-detection" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Approximate_Polygon.coverage" NAME="Approximate Polygon Coverage Results" MODIFIED="1547742969596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/measure" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$SIFT.coverage" NAME="SIFT Coverage Results" MODIFIED="1547752586577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/featureextractors" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Main.coverage" NAME="Main Coverage Results" MODIFIED="1541178252355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Gabors_featur.coverage" NAME="Gabors featur Coverage Results" MODIFIED="1547747309860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/featureextractors" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IO.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#710#720#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/Image_cropper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" selection-start-line="15" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/featureextractors/HOG.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="21" selection-end-column="16" />
-              <folding>
-                <element signature="e#464#495#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/anomaly-detection/isolation-forest.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segmentation/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+            <state relative-caret-position="377">
+              <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -146,15 +66,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/featureextractors/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/measure/perimeter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segmentation/random_walker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/featureextractors/DAISY.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="26" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/featureextractors/gabors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/featureextractors/SIFT.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/Image_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="138" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -163,34 +147,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production.py">
+        <entry file="file://$PROJECT_DIR$/featureextractors/ShapeIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anomaly-detection/one_class_svm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="28" column="13" lean-forward="true" selection-end-line="47" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="14" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -225,6 +185,9 @@
       <find>print</find>
       <find>close</find>
       <find>True</find>
+      <find>256</find>
+      <find>phantom</find>
+      <find>OPENCV_ENABLE_</find>
     </findStrings>
     <replaceStrings>
       <replace>self.</replace>
@@ -267,11 +230,25 @@
         <option value="$PROJECT_DIR$/IO.py" />
         <option value="$PROJECT_DIR$/Image.py" />
         <option value="$PROJECT_DIR$/utils/Image_cropper.py" />
-        <option value="$PROJECT_DIR$/utils/Image_loader.py" />
         <option value="$PROJECT_DIR$/feature-extractors/HOG.py" />
         <option value="$PROJECT_DIR$/anomaly-detection/one_class_svm.py" />
-        <option value="$PROJECT_DIR$/featureextractors/HOG.py" />
         <option value="$PROJECT_DIR$/anomaly-detection/isolation-forest.py" />
+        <option value="$PROJECT_DIR$/featureextractors/DAISY.py" />
+        <option value="$PROJECT_DIR$/featureextractors/ShapeIndex.py" />
+        <option value="$PROJECT_DIR$/featureextractors/HOG.py" />
+        <option value="$PROJECT_DIR$/segmentation/felzenszwalb.py" />
+        <option value="$PROJECT_DIR$/segmentation/random_walker.py" />
+        <option value="$PROJECT_DIR$/segmentation/watershed.py" />
+        <option value="$PROJECT_DIR$/segmentation/test.py" />
+        <option value="$PROJECT_DIR$/segmentation/threshold.py" />
+        <option value="$PROJECT_DIR$/measure/perimeter.py" />
+        <option value="$PROJECT_DIR$/approximate_polygon.py" />
+        <option value="$PROJECT_DIR$/measure/find_countours.py" />
+        <option value="$PROJECT_DIR$/measure/approximate_polygon.py" />
+        <option value="$PROJECT_DIR$/featureextractors/censure.py" />
+        <option value="$PROJECT_DIR$/utils/Image_loader.py" />
+        <option value="$PROJECT_DIR$/featureextractors/SIFT.py" />
+        <option value="$PROJECT_DIR$/featureextractors/gabors.py" />
       </list>
     </option>
   </component>
@@ -328,6 +305,16 @@
             <path>
               <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
               <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
+              <item name="measure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
+              <item name="segmentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -338,23 +325,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/anomaly-detection/isolation-forest.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/featureextractors/SIFT.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SpinViewExamples" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/models/cable_tie_length" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/measure" />
       <recent name="$PROJECT_DIR$/models/cable_tie_length/model1" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/models/empty_mould" />
       <recent name="$PROJECT_DIR$/models/cable_tie_length" />
-      <recent name="$PROJECT_DIR$/utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpinViewExamples" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/models/cable_tie_length" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -369,7 +356,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Isolation Forest">
+  <component name="RunManager" selected="Python.Gabors featur">
+    <configuration name="Approximate Polygon" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/measure" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/measure/approximate_polygon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Censure feature" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/featureextractors" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/featureextractors/censure.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Convert" type="PythonConfigurationType" factoryName="Python">
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -414,10 +445,98 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Daisy feature extractor" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/featureextractors" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/featureextractors/DAISY.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Felzenszwalb segmentation" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/segmentation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/segmentation/felzenszwalb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Find countours" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/measure" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/measure/find_countours.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Gabors featur" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/featureextractors" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/featureextractors/gabors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="HOG" type="PythonConfigurationType" factoryName="Python">
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/feature-extractors" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -459,6 +578,9 @@
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/anomaly-detection" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -500,6 +622,9 @@
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/anomaly-detection" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -507,6 +632,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anomaly-detection/one_class_svm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Perimeter measure" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/measure" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/measure/perimeter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -531,6 +678,91 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/production.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Random walker segmentation" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/segmentation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/segmentation/random_walker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SIFT" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/featureextractors" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/featureextractors/SIFT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Shape Index" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/featureextractors" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/featureextractors/ShapeIndex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/segmentation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/segmentation/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -581,6 +813,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Watershed segmentation" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/segmentation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/segmentation/watershed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -609,6 +863,18 @@
       <item itemvalue="Python.HOG" />
       <item itemvalue="Python.One Class SVM" />
       <item itemvalue="Python.Isolation Forest" />
+      <item itemvalue="Python.Daisy feature extractor" />
+      <item itemvalue="Python.Random walker segmentation" />
+      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.Watershed segmentation" />
+      <item itemvalue="Python.Find countours" />
+      <item itemvalue="Python.Perimeter measure" />
+      <item itemvalue="Python.Approximate Polygon" />
+      <item itemvalue="Python.Censure feature" />
+      <item itemvalue="Python.Gabors featur" />
+      <item itemvalue="Python.SIFT" />
+      <item itemvalue="Python.Felzenszwalb segmentation" />
+      <item itemvalue="Python.Shape Index" />
       <item itemvalue="Python.Production" />
       <item itemvalue="Python.Testtf" />
       <item itemvalue="Python.Train" />
@@ -629,12 +895,16 @@
       <workItem from="1547465167883" duration="2409000" />
       <workItem from="1547471525004" duration="11987000" />
       <workItem from="1547484466278" duration="6985000" />
-      <workItem from="1547551457548" duration="11756000" />
+      <workItem from="1547551457548" duration="12357000" />
+      <workItem from="1547640116810" duration="3696000" />
+      <workItem from="1547730042855" duration="4660000" />
+      <workItem from="1547739588769" duration="4517000" />
+      <workItem from="1547745755496" duration="5735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33137000" />
+    <option name="totallyTimeSpent" value="52346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,10 +916,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21503593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22498618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -658,13 +928,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32866243" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32810867" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291536" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3291536" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32810867" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3322884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -703,87 +973,25 @@
           <line>46</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/segmentation/test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/measure/approximate_polygon.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/featureextractors/gabors.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda2/envs/image_classifier/lib/python3.5/site-packages/tensorflow/python/keras/engine/training.py" />
-    <entry file="file://$USER_HOME$/anaconda2/envs/image_classifier/lib/python3.5/glob.py" />
-    <entry file="file://$PROJECT_DIR$/models/cable_tie_length/CableTieLength.py" />
-    <entry file="file://$PROJECT_DIR$/models/cable_tie_length/Cable_tie_length.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logger.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/serial/serialutil.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/serial/serialposix.py" />
-    <entry file="file:///usr/lib/python3.6/logging/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/models/cable_tie_length/model1/Cable_tie_length.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/empty_mould/Empty_Mould.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictor.py" />
-    <entry file="file://$PROJECT_DIR$/DNN/train.py" />
-    <entry file="file://$PROJECT_DIR$/utils/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNN/predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
-          <folding>
-            <element signature="e#93#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpinViewExamples/ImageFormatControl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpinViewExamples/Exposure_QuickSpin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpinViewExamples/ImageFormatControl_QuickSpin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpinViewExamples/Logging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpinViewExamples/ChunkData.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
@@ -912,19 +1120,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/Image_converter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
+        <state relative-caret-position="600">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#710#720#0" expanded="true" />
@@ -932,27 +1130,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production.py">
+    <entry file="file://$PROJECT_DIR$/Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image.py">
+    <entry file="file://$PROJECT_DIR$/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anomaly-detection/isolation-forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" selection-start-line="9" selection-end-line="17" selection-end-column="70" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier.py">
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/skimage/feature/_daisy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="2145">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
@@ -961,48 +1166,216 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/Image_cropper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="15">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/featureextractors/HOG.py">
+    <entry file="file://$PROJECT_DIR$/segmentation/watershed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#464#495#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/Image_loader.py">
+    <entry file="file://$PROJECT_DIR$/segmentation/felzenszwalb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anomaly-detection/one_class_svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="28" column="13" lean-forward="true" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="360">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anomaly-detection/isolation-forest.py">
+    <entry file="file://$PROJECT_DIR$/utils/train.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        <state relative-caret-position="225">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39765">
+          <caret line="2700" selection-start-line="2700" selection-end-line="2700" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27135">
+          <caret line="1809" selection-start-line="1809" selection-end-line="1809" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/threshold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anomaly-detection/one_class_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/measure/find_countours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/measure/approximate_polygon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/skimage/transform/_geometric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11250">
+          <caret line="755" column="17" selection-start-line="755" selection-start-column="17" selection-end-line="755" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Image_converter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureextractors/censure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/measure/perimeter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/random_walker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureextractors/DAISY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="26" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Image_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="138" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureextractors/ShapeIndex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureextractors/SIFT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureextractors/HOG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureextractors/gabors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

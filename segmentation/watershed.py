@@ -6,7 +6,9 @@ from skimage.color import label2rgb
 from skimage import data
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+
 import numpy as np
+import cv2
 
 import utils.Image_loader as il
 
@@ -14,6 +16,8 @@ coins = il.get_sample()
 
 # Make segmentation using edge-detection and watershed.
 edges = sobel(coins)
+
+cv2.imwrite("./edgs.png", edges)
 
 # Identify some background and foreground pixels from the intensity values.
 # These pixels are used as seeds for watershed.
@@ -54,5 +58,7 @@ ax[3].set_title('Join')
 for a in ax:
     a.axis('off')
 fig.tight_layout()
+plt.savefig('foo.png')
+
 plt.show()
 

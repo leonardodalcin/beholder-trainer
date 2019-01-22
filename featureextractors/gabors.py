@@ -38,6 +38,7 @@ if __name__ == '__main__':
     filters = build_filters()
 
     res1 = process(img, filters)
+    cv2.imwrite("./watershed.png", res1)
     cv2.imshow('result', res1)
     cv2.waitKey(0)
     cv2.destroyAllWindows()

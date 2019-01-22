@@ -3,7 +3,7 @@ import cv2
 import glob
 import os
 
-root_path = "/Users/leonardodalcin/Downloads/data"
+root_path = "/media/leonardo/Images/empty"
 
 # finds for image class on filename and return its class name
 def get_image_class_from_filename(image_name):
@@ -56,7 +56,7 @@ def main():
 		print(str(index) + " out of " + str(len(files)))
 		print("Filename: " + os.path.basename(image_name))
 		image = cv2.imread(image_name, 0)
-		new_image_path = "./" + get_image_class_from_filename(image_name) + "/" + os.path.basename(image_name) + ".png"
+		new_image_path = "./" + get_image_class_from_filename(image_name) + "/" + os.path.basename(image_name) + ".jpg"
 		print("Saved file as: " + new_image_path)
 
 		cv2.imwrite(new_image_path, image)

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e64fde6-67ff-43b0-8495-ce9e7330fc70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder/autoencoder_m.h5" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder/models/autoencoder_128px.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoencoder/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoencoder/predict.py" afterDir="false" />
-    </list>
+    <list default="true" id="1e64fde6-67ff-43b0-8495-ce9e7330fc70" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,20 +12,24 @@
     <SUITE FILE_PATH="coverage/beholder_trainer$Watershed_segmentation.coverage" NAME="Watershed segmentation Coverage Results" MODIFIED="1548073526136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Cropper.coverage" NAME="Cropper Coverage Results" MODIFIED="1547574122921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Find_countours.coverage" NAME="Find countours Coverage Results" MODIFIED="1547741170008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/measure" />
-    <SUITE FILE_PATH="coverage/beholder_trainer$Autoencoder_Train.coverage" NAME="Autoencoder Train Coverage Results" MODIFIED="1548175283934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoencoder" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Autoencoder_Train.coverage" NAME="Autoencoder Train Coverage Results" MODIFIED="1548338353657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoencoder" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Test.coverage" NAME="Test Coverage Results" MODIFIED="1547734154469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Daisy_feature_extractor.coverage" NAME="Daisy feature extractor Coverage Results" MODIFIED="1547641703420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/featureextractors" />
-    <SUITE FILE_PATH="coverage/beholder_trainer$Autoencoder_Predict.coverage" NAME="Autoencoder Predict Coverage Results" MODIFIED="1548160145624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoencoder" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Autoencoder_Predict.coverage" NAME="Autoencoder Predict Coverage Results" MODIFIED="1548331404844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoencoder" />
     <SUITE FILE_PATH="coverage/beholder_trainer$HOG.coverage" NAME="HOG Coverage Results" MODIFIED="1547572681976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature-extractors" />
     <SUITE FILE_PATH="coverage/beholder_trainer$One_Class_SVM.coverage" NAME="One Class SVM Coverage Results" MODIFIED="1547578853939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anomaly-detection" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Train.coverage" NAME="Train Coverage Results" MODIFIED="1541021142261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Censure_feature.coverage" NAME="Censure feature Coverage Results" MODIFIED="1547745049434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/featureextractors" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$SVM_plot.coverage" NAME="Linear regression Coverage Results" MODIFIED="1548419736190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classifiers" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Production.coverage" NAME="Production Coverage Results" MODIFIED="1547491690569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Convert.coverage" NAME="Convert Coverage Results" MODIFIED="1548094029570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$SVM_train.coverage" NAME="SVM train Coverage Results" MODIFIED="1548412437288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classifiers" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Isolation_Forest.coverage" NAME="Isolation Forest Coverage Results" MODIFIED="1547579073866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/anomaly-detection" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Approximate_Polygon.coverage" NAME="Approximate Polygon Coverage Results" MODIFIED="1547742969596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/measure" />
     <SUITE FILE_PATH="coverage/beholder_trainer$SIFT.coverage" NAME="SIFT Coverage Results" MODIFIED="1547752586577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/featureextractors" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Main.coverage" NAME="Main Coverage Results" MODIFIED="1541178252355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$SVM_Predict.coverage" NAME="SVM Predict Coverage Results" MODIFIED="1548412846439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classifiers" />
+    <SUITE FILE_PATH="coverage/beholder_trainer$Classifier_anomaly_detection.coverage" NAME="Classifier anomaly detection Coverage Results" MODIFIED="1548419588445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classifiers" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1548093842269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autoencoder" />
     <SUITE FILE_PATH="coverage/beholder_trainer$Gabors_featur.coverage" NAME="Gabors featur Coverage Results" MODIFIED="1547747309860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/featureextractors" />
   </component>
@@ -51,93 +50,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoencoder/main.py">
+        <entry file="file://$PROJECT_DIR$/Image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="270">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classifiers/SVCpredict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding>
-                <element signature="e#1#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1651">
-              <caret line="1879" column="6" selection-start-line="1879" selection-start-column="6" selection-end-line="1879" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/autoencoder/predict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="95" column="106" selection-start-line="95" selection-start-column="106" selection-end-line="95" selection-end-column="106" />
-              <folding>
-                <element signature="e#1#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="196" selection-start-line="196" selection-end-line="196" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anomaly-detection/isolation-forest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="9" selection-start-line="9" selection-end-line="17" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DNN/network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/featureextractors/gabors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,11 +73,83 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/Image_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="45">
+              <caret line="12" column="9" selection-start-line="12" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classifiers/SVC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classifiers/linear_regressions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FSM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Camera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1149">
+              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classifiers/anomaly_detectors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#145#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/sklearn/neighbors/lof.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3585">
+              <caret line="248" column="40" selection-start-line="248" selection-start-column="40" selection-end-line="248" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -166,21 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this.</find>
-      <find>model</find>
-      <find>exit(</find>
-      <find>Entering s</find>
-      <find>en</find>
-      <find>Ente</find>
-      <find>before</find>
-      <find>exite</find>
-      <find>args</find>
-      <find>X_test</find>
-      <find>SOFTWARE</find>
-      <find>nodemap_tldevice</find>
-      <find>cam</find>
-      <find>grab_next_image_by_trigger</find>
-      <find>print</find>
       <find>close</find>
       <find>True</find>
       <find>phantom</find>
@@ -194,17 +178,38 @@
       <find>1024</find>
       <find>512</find>
       <find>128</find>
+      <find>x_test[i]</find>
       <find>256</find>
+      <find>autoencoder_dense_mssi_loss</find>
+      <find>custom_objects={'DSSIMObjective': DSSIMObjective}</find>
+      <find>'DSSIMObjective': DSSIMObjective, 'rmse_loss': rmse_loss</find>
+      <find>autoencoder_dense_rmse_mssi_loss</find>
+      <find>good_images</find>
+      <find>glob2</find>
       <find>loss</find>
+      <find>uuid</find>
+      <find>exte</find>
+      <find>bad_images</find>
+      <find>xx</find>
+      <find>Xfull</find>
+      <find>GaussianProcessClassifier</find>
+      <find>datasets</find>
+      <find>k</find>
     </findStrings>
     <replaceStrings>
       <replace>self.</replace>
       <replace>)</replace>
       <replace>124</replace>
-      <replace>128</replace>
       <replace>1024</replace>
       <replace>512</replace>
       <replace>256</replace>
+      <replace>img</replace>
+      <replace>autoencoder_dense_rmse_mssi_loss</replace>
+      <replace>custom_objects={'ssmi': DSSIMObjective, 'rmse_loss': rmse_loss}}</replace>
+      <replace>custom_objects={'ssmi_loss': DSSIMObjective, 'rmse_loss': rmse_loss}}</replace>
+      <replace>'rmse_smi_loss': rmse_smi_loss</replace>
+      <replace>autoencoder_conv_rmse_mssi_loss</replace>
+      <replace>128</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -213,17 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/models/Cable_tie_length.py" />
-        <option value="$PROJECT_DIR$/models/Empty_Mould.py" />
-        <option value="$PROJECT_DIR$/models/__init__.py" />
-        <option value="$PROJECT_DIR$/Image_converter.py" />
-        <option value="$PROJECT_DIR$/model.py" />
-        <option value="$PROJECT_DIR$/utils/evaluate.py" />
-        <option value="$PROJECT_DIR$/utils/Classifier.py" />
-        <option value="$PROJECT_DIR$/models/empty_mould/Empty_Mould.py" />
-        <option value="$PROJECT_DIR$/models/cable_tie_length/CableTieLength.py" />
-        <option value="$PROJECT_DIR$/Classifier.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/models/cable_tie_length/Cable_tie_length.py" />
         <option value="$PROJECT_DIR$/logger.py" />
         <option value="$PROJECT_DIR$/Logger.py" />
@@ -256,14 +250,25 @@
         <option value="$PROJECT_DIR$/measure/find_countours.py" />
         <option value="$PROJECT_DIR$/measure/approximate_polygon.py" />
         <option value="$PROJECT_DIR$/featureextractors/censure.py" />
-        <option value="$PROJECT_DIR$/utils/Image_loader.py" />
         <option value="$PROJECT_DIR$/featureextractors/SIFT.py" />
         <option value="$PROJECT_DIR$/featureextractors/gabors.py" />
         <option value="$PROJECT_DIR$/segmentation/watershed.py" />
         <option value="$PROJECT_DIR$/utils/Image_converter.py" />
+        <option value="$PROJECT_DIR$/autoencoder/networks/conv2d.py" />
+        <option value="$PROJECT_DIR$/autoencoder/networks/dense.py" />
+        <option value="$PROJECT_DIR$/autoencoder/predict.py" />
+        <option value="$PROJECT_DIR$/autoencoder/networks/Autoencoder.py" />
+        <option value="$PROJECT_DIR$/autoencoder/loss_functions/rmse.py" />
+        <option value="$PROJECT_DIR$/autoencoder/loss_functions/loss_functions.py" />
+        <option value="$PROJECT_DIR$/autoencoder/Autoencoder.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/autoencoder/main.py" />
-        <option value="$PROJECT_DIR$/autoencoder/predict.py" />
+        <option value="$PROJECT_DIR$/utils/Image_loader.py" />
+        <option value="$PROJECT_DIR$/classifiers/SVC.py" />
+        <option value="$PROJECT_DIR$/classifiers/SVCpredict.py" />
+        <option value="$PROJECT_DIR$/classifiers/Test.py" />
+        <option value="$PROJECT_DIR$/classifiers/anomaly_detectors.py" />
+        <option value="$PROJECT_DIR$/classifiers/linear_regressions.py" />
       </list>
     </option>
   </component>
@@ -321,7 +326,24 @@
               <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
               <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
               <item name="autoencoder" type="462c0819:PsiDirectoryNode" />
+              <item name="loss_functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
+              <item name="autoencoder" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
+              <item name="autoencoder" type="462c0819:PsiDirectoryNode" />
+              <item name="networks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
+              <item name="classifiers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
@@ -336,23 +358,12 @@
             <path>
               <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
               <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
-              <item name="measure" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
               <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
               <item name="segmentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beholder-trainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beholder-trainer" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="empty" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -362,15 +373,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/autoencoder/predict.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/classifiers/anomaly_detectors.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/autoencoder/models" />
       <recent name="$PROJECT_DIR$/autoencoder" />
+      <recent name="$PROJECT_DIR$/autoencoder/models" />
       <recent name="$PROJECT_DIR$/measure" />
       <recent name="$PROJECT_DIR$/models/cable_tie_length/model1" />
       <recent name="$PROJECT_DIR$" />
@@ -393,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Autoencoder Predict">
+  <component name="RunManager" selected="Python.Classifier anomaly detection">
     <configuration name="Approximate Polygon" type="PythonConfigurationType" factoryName="Python">
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -420,6 +431,9 @@
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoencoder" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -439,6 +453,9 @@
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoencoder" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -470,6 +487,28 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/featureextractors/censure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Classifier anomaly detection" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classifiers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classifiers/anomaly_detectors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -674,6 +713,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Linear regression" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classifiers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classifiers/linear_regressions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python">
       <module name="beholder-trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -800,6 +861,50 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/featureextractors/SIFT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SVM Predict" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classifiers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classifiers/SVCpredict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SVM train" type="PythonConfigurationType" factoryName="Python">
+      <module name="beholder-trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/beholder-trainer/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classifiers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classifiers/SVC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -972,6 +1077,10 @@
       <item itemvalue="Python.Watershed segmentation" />
       <item itemvalue="Python.Autoencoder Train" />
       <item itemvalue="Python.Autoencoder Predict" />
+      <item itemvalue="Python.SVM train" />
+      <item itemvalue="Python.SVM Predict" />
+      <item itemvalue="Python.Linear regression" />
+      <item itemvalue="Python.Classifier anomaly detection" />
       <item itemvalue="Python.Find countours" />
       <item itemvalue="Python.Perimeter measure" />
       <item itemvalue="Python.Approximate Polygon" />
@@ -1009,11 +1118,17 @@
       <workItem from="1548072480835" duration="14722000" />
       <workItem from="1548158080193" duration="8173000" />
       <workItem from="1548171047582" duration="4743000" />
+      <workItem from="1548250114591" duration="2131000" />
+      <workItem from="1548330414356" duration="14666000" />
+      <workItem from="1548346831014" duration="2804000" />
+      <workItem from="1548410007532" duration="3394000" />
+      <workItem from="1548413656582" duration="10511000" />
+      <workItem from="1548499272512" duration="351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80095000" />
+    <option name="totallyTimeSpent" value="113952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1025,15 +1140,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27197346" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1973466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28004178" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27586207" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1042,12 +1156,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291536" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32810867" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3354232" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32810867" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.33437827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2697623" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.4223328" />
       <window_info anchor="right" id="Database" order="4" weight="0.32946378" />
       <window_info anchor="right" x="0" y="0" width="333" height="675" id="Documentation" order="5" side_tool="true" visible="true" weight="0.32952252" />
       <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
@@ -1058,6 +1172,46 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1102,260 +1256,25 @@
           <line>19</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoencoder/predict.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autoencoder/main.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classifiers/linear_regressions.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testtf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#710#720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/skimage/feature/_daisy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureextractors/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/Image_cropper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/felzenszwalb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/train.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39765">
-          <caret line="2700" selection-start-line="2700" selection-end-line="2700" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/matplotlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27135">
-          <caret line="1809" selection-start-line="1809" selection-end-line="1809" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/skimage/transform/_geometric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11250">
-          <caret line="755" column="17" selection-start-line="755" selection-start-column="17" selection-end-line="755" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2985">
-          <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FSM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/foo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/measure/approximate_polygon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/measure/perimeter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureextractors/SIFT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureextractors/ShapeIndex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureextractors/DAISY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureextractors/censure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureextractors/watershed.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/random_walker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/threshold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/edgs.png" />
-    <entry file="file://$PROJECT_DIR$/featureextractors/HOG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/measure/find_countours.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/numpy/lib/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="780" selection-start-line="780" selection-end-line="780" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/tensorflow/python/keras/engine/training_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anomaly-detection/one_class_svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" selection-start-line="8" selection-end-line="17" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/segmentation/watershed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1397,16 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DNN/Predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="91" column="66" selection-start-line="90" selection-start-column="16" selection-end-line="91" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DNN/predictor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
@@ -1414,28 +1323,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/featureextractors/gabors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/Image_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/empty/0c1ba637-714c-4653-95a9-1a73cb388666empty.pgm.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2865">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/anomaly-detection/isolation-forest.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1449,56 +1352,285 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DNN/network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
+        <state relative-caret-position="330">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/featureextractors/gabors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/tensorflow/python/training/checkpointable/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6735">
+          <caret line="473" selection-start-line="473" selection-end-line="473" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1651">
-          <caret line="1879" column="6" selection-start-line="1879" selection-start-column="6" selection-end-line="1879" selection-end-column="6" />
+        <state relative-caret-position="212">
+          <caret line="1153" selection-start-line="1153" selection-end-line="1153" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/tensorflow/python/keras/engine/training_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="212">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/tensorflow/python/client/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        <state relative-caret-position="408">
+          <caret line="1362" column="35" selection-start-line="1362" selection-start-column="35" selection-end-line="1362" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/keras_contrib/losses/dssim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/train.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoencoder/loss_functions/loss_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoencoder/networks/dense.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoencoder/networks/conv2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="29" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Image_cropper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/joblib/numpy_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="589" selection-start-line="589" selection-end-line="589" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="551" selection-start-line="551" selection-end-line="551" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoencoder/Autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/bad_empty/86c2889c-e043-4c94-89b7-9a2f2f771cec.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/bad_empty/78d55e97-3298-4dd6-adab-5bbb0e746887.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/bad_empty/1caeb376-c487-41aa-b08f-b01e3df94b34.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/bad_empty/26dfed7f-a4a0-40bf-b9e5-2076013a99a7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/bad_empty/f504b6cd-fbd9-4695-abb1-4ec330ed2268.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/good_empty/0fd07ed6-9295-43b3-8b55-7530114f39be.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/good_empty/1d2770f8-8166-4bc2-b44b-14219aabf78b.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/good_features.npy">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/autoencoder/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="30">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#1#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/Predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="91" column="66" selection-start-line="90" selection-start-column="16" selection-end-line="91" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7785">
+          <caret line="532" selection-start-line="532" selection-end-line="532" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autoencoder/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="95" column="106" selection-start-line="95" selection-start-column="106" selection-end-line="95" selection-end-column="106" />
+        <state relative-caret-position="2175">
+          <caret line="148" column="77" selection-start-line="148" selection-start-column="77" selection-end-line="148" selection-end-column="77" />
           <folding>
             <element signature="e#1#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="2365" selection-start-line="2365" selection-end-line="2365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1576424515/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="2961" column="35" selection-start-line="2961" selection-start-column="35" selection-end-line="2961" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anomaly-detection/one_class_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/SVCpredict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Image_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="12" column="9" selection-start-line="12" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/SVC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/linear_regressions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FSM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/anomaly_detectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#145#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/beholder-trainer/lib/python3.6/site-packages/sklearn/neighbors/lof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3585">
+          <caret line="248" column="40" selection-start-line="248" selection-start-column="40" selection-end-line="248" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1149">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
         </state>
       </provider>
     </entry>

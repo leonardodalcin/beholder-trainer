@@ -2,6 +2,13 @@
 import matplotlib.pyplot as plt
 from tensorflow import keras
 from keras_contrib.losses import DSSIMObjective
+from keras.losses import mean_squared_error
+smiloss = DSSIMObjective()
+def rmse_loss(y_true,y_pred):
+    return smiloss(y_true,y_pred) + K.sqrt(K.mean(K.square(y_pred - y_true)))
+
+def rmse_smi_loss(y_true,y_pred):
+    return smiloss(y_true,y_pred) + K.sqrt(K.mean(K.square(y_pred - y_true)))
 
 Input = keras.layers.Input
 
@@ -42,8 +49,11 @@ x = Conv2D(128, (3, 3), activation='relu', padding='same')(x)
 x = UpSampling2D((2, 2))(x)
 decoded = Conv2D(1, (3, 3), activation='sigmoid', padding='same')(x)
 
-autoencoder = Model(input_img, decoded)
-autoencoder.compile(optimizer='adadelta', loss=DSSIMObjective())
+autoencoder = Model(inputs=input_img, outputs=decoded)
+autoencoder.summary()
+
+
+autoencoder.compile(optimizer='adam', loss=rmse_smi_loss)
 
 import numpy as np
 import utils.Image_loader as il
@@ -70,19 +80,20 @@ x_train = x_train.astype('float32')
 x_test = np.array(x_test)
 x_test = x_test.astype('float32')
 
-x_train = np.reshape(x_train, (len(x_train), 256, 256, 1))
-x_test = np.reshape(x_test, (len(x_test), 256, 256, 1))
+x_train = np.reshape(x_train, (len(x_train), 256, 256,1))
+x_test = np.reshape(x_test, (len(x_test), 256, 256,1))
 
 print(x_train.shape)
 print(x_test.shape)
 
+
 autoencoder.fit(x_train, x_train,
-                epochs=30,
+                epochs=50,
                 batch_size=16,
                 shuffle=True,
                 validation_data=(x_test, x_test))
 
-autoencoder.save('autoencoder_mssi_loss.h5')
+autoencoder.save('autoencoder_conv_rmse_mssi_loss.h5')
 
 decoded_imgs = autoencoder.predict(x_test)
 

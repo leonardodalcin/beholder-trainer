@@ -2,3 +2,7 @@
 *.png
 *.pgm
 *.jpg
+autoencoder/models/*.h5
+*.h5
+*.hdf5
+*.he5
